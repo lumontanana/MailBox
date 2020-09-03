@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TreeView;
 import javafx.scene.web.WebView;
+import javafx.stage.Stage;
 
 public class MainWindowControler extends BaseController {
 
@@ -24,8 +25,8 @@ public class MainWindowControler extends BaseController {
     }
 
     @FXML
-    void optionsAction( ActionEvent event) {
-
+    void optionsAction() {
+        viewFactory.showOptionsWindow();
     }
 
 }

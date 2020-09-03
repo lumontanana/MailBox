@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="288.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.view.LoginWindowControler">
+<AnchorPane prefHeight="288.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" >
    <children>
       <Button fx:id="errorLabel" layoutX="233.0" layoutY="221.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="61.0" prefWidth="95.0" text="Log in" />
       <Label layoutX="119.0" layoutY="96.0" prefHeight="61.0" prefWidth="113.0" text="Email:">

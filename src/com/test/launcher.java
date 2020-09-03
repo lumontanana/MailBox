@@ -20,5 +20,6 @@ public class launcher extends Application {
 
         ViewFactory viewFactory = new ViewFactory(new EmailManager());
         viewFactory.showLoginWindow();
+
     }
 }

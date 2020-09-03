@@ -6,6 +6,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 public class LoginWindowControler  extends BaseController {
 
@@ -25,6 +26,9 @@ public class LoginWindowControler  extends BaseController {
     @FXML
     void loginButtonAction(ActionEvent event) {
         System.out.println("Click");
+        viewFactory.showMainWindow();
+        Stage stage= (Stage)errorLabel.getScene().getWindow();
+        viewFactory.closeStage(stage);
 
     }
 }
